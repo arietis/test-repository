@@ -1,1 +1,1 @@
-web: uwsgi uwsgi.ini
+web: twistd web --wsgi app.app
