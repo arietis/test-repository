@@ -1,1 +1,1 @@
-web: twistd web --wsgi app.app
+web: twistd -n web --port=$PORT --wsgi app.app
